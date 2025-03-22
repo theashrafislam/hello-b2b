@@ -2,7 +2,7 @@ import React from 'react';
 
 const VisaTo = () => {
     return (
-        <div className='bg-[#202020] text-left px-12 pt-[342px]'>
+        <div className='bg-[#202020] text-left px-12'>
 
             <div className='flex justify-between gap-[64px] pb-[183px]'>
                 <div className='w-[50%]'>
