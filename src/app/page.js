@@ -10,6 +10,8 @@ import Expect from "./Components/Home/Expect";
 import Package from "./Components/Home/Package";
 import ImageSection from "./Components/Home/Image";
 import AboutUs from "./Components/Home/AboutUs";
+import Featured from "./Components/Home/Featured";
+import VisaTo from "./Components/Home/VisaTo";
 
 export default function Home() {
   return (
@@ -35,6 +37,10 @@ export default function Home() {
       <ImageSection />
 
       <AboutUs />
+
+      <Featured />
+
+      <VisaTo />
     </div>
   );
 }
