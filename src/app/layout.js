@@ -26,12 +26,12 @@ export default function RootLayout({ children }) {
         </header>
         
         {/* main  */}
-        <main className="flex-1 container mx-auto">
+        <main className="flex-grow">
         {children}
         </main>
 
         {/* footer  */}
-        <footer>
+        <footer className="flex-1">
           <Footer />
         </footer>
       </body>

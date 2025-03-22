@@ -1,9 +1,10 @@
 import Image from "next/image";
+import HeroSection from "./Components/Home/HeroSection";
 
 export default function Home() {
   return (
     <div className="container mx-auto">
-      <h1>ami astechi</h1>
+      <HeroSection />
     </div>
   );
 }

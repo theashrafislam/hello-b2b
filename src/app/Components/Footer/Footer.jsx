@@ -3,10 +3,12 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer
-            className="w-full h-[867px] bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: "url('/footer.png')" }}
-        >
+        <footer className='bg-[#3D3333]'>
+            <div
+                className="w-full h-[867px]"
+                style={{ backgroundImage: "url('/footer.png')" }}
+            >
+            </div>
         </footer>
     );
 };
