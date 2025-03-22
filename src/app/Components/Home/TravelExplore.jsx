@@ -20,7 +20,7 @@ const TravelExplore = () => {
                 </div>
             </div>
 
-            <div className='flex justify-between gap-[64px]'>
+            <div className='flex justify-between gap-[64px] pb-[183px]'>
                 <div className='w-[50%]'>
                     <img src="/travel/4th.png" alt="" className='w-full h-[1001px] rounded-xl' />
                 </div>
