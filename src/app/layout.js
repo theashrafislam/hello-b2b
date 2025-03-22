@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} antialiased container mx-auto`}
+        className={`${poppins.className} antialiased container mx-auto min-h-screen`}
       >
         {/* header  */}
         <header className="flex-1">
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         </header>
         
         {/* main  */}
-        <main >
+        <main className="flex-1 container mx-auto">
         {children}
         </main>
 
