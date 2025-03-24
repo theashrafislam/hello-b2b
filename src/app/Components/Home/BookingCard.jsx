@@ -20,27 +20,42 @@ const BookingCard = () => {
                 </div>
             </div>
 
-            <div className='p-3 flex items-center justify-between'>
+            <div className='p-3 flex items-center justify-between mt-[60px]'>
                 <div className='flex items-center gap-2'>
-                    <button className='px-2 pt-[9px] pb-[21px] border border-[#D0A148] rounded-lg hover:bg-[#D0A148] hover:text-white text-[#D0A148]'><MdFlightTakeoff className='inline mr-1 text-xl'/>Flights</button>
-                    <button className='px-2 pt-[9px] pb-[21px] border border-[#D0A148] rounded-lg hover:bg-[#D0A148] hover:text-white text-[#D0A148]'><MdHotel className='inline mr-1 text-xl'/>Hotels</button>
-                    <button className='px-2 pt-[9px] pb-[21px] border border-[#D0A148] rounded-lg hover:bg-[#D0A148] hover:text-white text-[#D0A148]'><FaCcVisa className='inline mr-1 text-xl'/>Visa</button>
-                    <button className='px-2 pt-[9px] pb-[21px] border border-[#D0A148] rounded-lg hover:bg-[#D0A148] hover:text-white text-[#D0A148]'><SiMentorcruise className='inline mr-1 text-xl'/>Cruise</button>
+                    <button className='px-2 pt-[9px] pb-[21px] border border-[#D0A148] rounded-lg hover:bg-[#D0A148] hover:text-white text-[#D0A148]'><MdFlightTakeoff className='inline mr-1 text-xl' />Flights</button>
+                    <button className='px-2 pt-[9px] pb-[21px] border border-[#D0A148] rounded-lg hover:bg-[#D0A148] hover:text-white text-[#D0A148]'><MdHotel className='inline mr-1 text-xl' />Hotels</button>
+                    <button className='px-2 pt-[9px] pb-[21px] border border-[#D0A148] rounded-lg hover:bg-[#D0A148] hover:text-white text-[#D0A148]'><FaCcVisa className='inline mr-1 text-xl' />Visa</button>
+                    <button className='px-2 pt-[9px] pb-[21px] border border-[#D0A148] rounded-lg hover:bg-[#D0A148] hover:text-white text-[#D0A148]'><SiMentorcruise className='inline mr-1 text-xl' />Cruise</button>
                 </div>
                 <div className='flex items-center gap-3'>
                     <p className='font-medium hover:text-[#D0A148] cursor-pointer'>One way</p>
                     <p className='font-medium hover:text-[#D0A148] cursor-pointer'>Round Trip</p>
                     <p className='font-medium hover:text-[#D0A148] cursor-pointer'>Multi City</p>
                 </div>
-                <div>
+
+            </div>
+            <div className='flex items-center gap-7 justify-between mt-[35px]'>
+                <div className='w-[50%] grid grid-cols-2 gap-5'>
+                    {/* card  */}
+                    {[1, 2, 3, 4].map((card, index) => {
+                        return <div key={index} className='flex items-center pl-[20px] pb-[22px] pt-[16px] border-x-2 border-b-4 border-t-4 border-[#D0A148] pr-[96px] rounded-xl'>
+                            <MdFlightTakeoff className='inline mr-2 text-2xl' />
+                            <div>
+                                <p className='text-[15px] text-[#C5C0C0]'>From</p>
+                                <p className='text-[20px] font-medium mb-[3px]'>Berlin</p>
+                                <p className='text-[10px] font-medium'>BIA-Berlin International Airport</p>
+                            </div>
+                        </div>
+                    })}
+                </div>
+
+                <div className='w-[50%]'>
+                    {/* card  */}
                     <div>
-                        {/* card  */}
                         <div>
-                            
+                            <p className='text-[15px]'>Journey Date</p>
                         </div>
                     </div>
-
-                    <div></div>
                 </div>
             </div>
         </div>
