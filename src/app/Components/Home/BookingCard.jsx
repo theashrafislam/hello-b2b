@@ -70,11 +70,11 @@ const BookingCard = () => {
                         </div>
                         <div className='pl-[26px] pt-[17px] pb-[54px] pr-4 border-2 border-[#D0A148] border-t-4 border-b-4 rounded-lg w-[50%]'>
                             <div className='flex items-center justify-between'>
-                                <p className='text-[15px] text-[#C5C0C0]'>Journey Date</p>
+                                <p className='text-[15px] text-[#C5C0C0]'>Passenger,Class</p>
                                 <CiCalendarDate className='text-xl' />
                             </div>
-                            <p className='text-[20px] font-medium'>12/02/2025</p>
-                            <p className='text-[15px] font-medium ml-1 text-[#C5C0C0]'>Wednesday</p>
+                            <p className='text-[20px] font-medium'>15</p>
+                            <p className='text-[15px] font-medium ml-1 text-[#C5C0C0]'>Economy</p>
                         </div>
                     </div>
                 </div>
