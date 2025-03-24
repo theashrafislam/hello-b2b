@@ -16,7 +16,7 @@ import VisaTo from "./Components/Home/VisaTo";
 export default function Home() {
   return (
     <div className="container mx-auto">
-      {/* <HeroSection /> */}
+      <HeroSection />
 
       {/* <TravelExplore />
 

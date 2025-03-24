@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import BookingCard from "./BookingCard";
 
 const HeroSection = () => {
     return (
         <div className="relative w-full h-[1358px]">
             {/* Background Image */}
             <Image
-                src="/bg.png"
+                src="/hero.png"
                 alt="Hero Background"
                 layout="fill"
                 objectFit="cover"
@@ -27,7 +28,7 @@ const HeroSection = () => {
             </div>
 
             {/* Booking Section Image */}
-            <div className="max-w-6xl mx-auto">
+            {/* <div className="max-w-6xl mx-auto flex items-center justify-center"> */}
                 {/* <Image
                     src="/book.png"
                     alt="Hero Booking"
@@ -36,8 +37,11 @@ const HeroSection = () => {
                     quality={100}
                     priority
                 /> */}
-                <img src="/book.png" alt="Hero Booking" className="w-[1100px] top-[1140px] absolute"/>
-            </div>
+                {/* <img src="/book.png" alt="Hero Booking" className="w-[1100px] top-[1140px] absolute"/> */}
+                <div className="absolute top-[1140px]">
+                    <BookingCard />
+                </div>
+            {/* </div> */}
         </div>
     );
 };
