@@ -28,17 +28,7 @@ const HeroSection = () => {
             </div>
 
             {/* Booking Section Image */}
-            {/* <div className="max-w-6xl mx-auto flex items-center justify-center"> */}
-                {/* <Image
-                    src="/book.png"
-                    alt="Hero Booking"
-                    width={1200}  // Adjust width as needed
-                    height={450}  // Adjust height as needed
-                    quality={100}
-                    priority
-                /> */}
-                {/* <img src="/book.png" alt="Hero Booking" className="w-[1100px] top-[1140px] absolute"/> */}
-                <div className="absolute top-[1140px]">
+                <div className="absolute top-[1020px] left-1/2 transform -translate-x-1/2">
                     <BookingCard />
                 </div>
             {/* </div> */}
