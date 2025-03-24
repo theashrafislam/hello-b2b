@@ -26,7 +26,7 @@ export default function Home() {
 
       <Destination />
 
-      {/* <Watch />
+      <Watch />
 
       <ExploreHotel />
 
@@ -40,7 +40,7 @@ export default function Home() {
 
       <Featured />
 
-      <VisaTo /> */}
+      <VisaTo />
     </div>
   );
 }
