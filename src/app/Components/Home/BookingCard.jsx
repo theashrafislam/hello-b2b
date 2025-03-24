@@ -2,6 +2,7 @@ import React from 'react';
 import { FaCcVisa } from 'react-icons/fa';
 import { MdFlightTakeoff, MdHotel } from "react-icons/md";
 import { SiMentorcruise } from "react-icons/si";
+import { CiCalendarDate } from "react-icons/ci";
 
 const BookingCard = () => {
     return (
@@ -52,9 +53,12 @@ const BookingCard = () => {
                 <div className='w-[50%]'>
                     {/* card  */}
                     <div>
-                        <div>
-                            <p className='text-[15px]'>Journey Date</p>
+                        <div className='flex items-center justify-between'>
+                            <p className='text-[15px] text-[#C5C0C0]'>Journey Date</p>
+                            <CiCalendarDate className='text-xl'/>
                         </div>
+                        <p className='text-[20px] font-medium'>12/02/2025</p>
+                        <p className='text-[15px] font-medium ml-1 text-[#C5C0C0]'>Wednesday</p>
                     </div>
                 </div>
             </div>
