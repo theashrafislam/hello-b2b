@@ -22,11 +22,11 @@ export default function Home() {
 
       <ExploreFeatures />
 
-      {/* <Special />
+      <Special />
 
       <Destination />
 
-      <Watch />
+      {/* <Watch />
 
       <ExploreHotel />
 

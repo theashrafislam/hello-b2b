@@ -9,8 +9,9 @@ const ExploreFeatures = () => {
             <div className='flex items-center justify-between gap-5 text-white max-w-7xl mx-auto pb-[150px]'>
 
                 {/* card  */}
-                <div className='rounded-xl border border-[#D0A148] border-b-4 border-t-4 w-96'>
+                <div className='rounded-xl border border-[#D0A148] border-b-4 border-t-4 w-96 relative'>
                     <Image src={'/popular/1.png'} alt='hello' width={1000} height={600} className='w-96 rounded-t-xl' />
+                    <div className='p-6 bg-black text-[#D0A148] font-bold text-2xl border-2 border-black w-[70px] h-[70px] top-[205px] right-2 text-center absolute'>20</div>
                     <div className='p-[20px] bg-[#FFF] rounded-b-xl'>
                         <div className='text-[#807A7A] text-[10px] flex items-center gap-2'>
                             <p>5 nights 6 days tour</p>
@@ -30,8 +31,9 @@ const ExploreFeatures = () => {
                         </div>
                     </div>
                 </div>
-                <div className='rounded-xl border border-[#D0A148] border-b-4 border-t-4 w-96'>
+                <div className='rounded-xl border border-[#D0A148] border-b-4 border-t-4 w-96 relative'>
                     <Image src={'/popular/1.png'} alt='hello' width={1000} height={600} className='w-96 rounded-t-xl' />
+                    <div className='p-6 bg-black text-[#D0A148] font-bold text-2xl border-2 border-black w-[70px] h-[70px] top-[205px] right-2 text-center absolute'>20</div>
                     <div className='p-[20px] bg-[#FFF] rounded-b-xl'>
                         <div className='text-[#807A7A] text-[10px] flex items-center gap-2'>
                             <p>5 nights 6 days tour</p>
@@ -51,8 +53,9 @@ const ExploreFeatures = () => {
                         </div>
                     </div>
                 </div>
-                <div className='rounded-xl border border-[#D0A148] border-b-4 border-t-4 w-96'>
+                <div className='rounded-xl border border-[#D0A148] border-b-4 border-t-4 w-96 relative'>
                     <Image src={'/popular/1.png'} alt='hello' width={1000} height={600} className='w-96 rounded-t-xl' />
+                    <div className='p-6 bg-black text-[#D0A148] font-bold text-2xl border-2 border-black w-[70px] h-[70px] top-[205px] right-2 text-center absolute'>20</div>
                     <div className='p-[20px] bg-[#FFF] rounded-b-xl'>
                         <div className='text-[#807A7A] text-[10px] flex items-center gap-2'>
                             <p>5 nights 6 days tour</p>
@@ -74,8 +77,9 @@ const ExploreFeatures = () => {
                 </div>
             </div>
             <div className='flex items-center justify-between gap-5 text-white max-w-7xl mx-auto pb-[297px]'>
-            <div className='rounded-xl border border-[#D0A148] border-b-4 border-t-4 w-96'>
+            <div className='rounded-xl border border-[#D0A148] border-b-4 border-t-4 w-96 relative'>
                     <Image src={'/popular/1.png'} alt='hello' width={1000} height={600} className='w-96 rounded-t-xl' />
+                    <div className='p-6 bg-black text-[#D0A148] font-bold text-2xl border-2 border-black w-[70px] h-[70px] top-[205px] right-2 text-center absolute'>20</div>
                     <div className='p-[20px] bg-[#FFF] rounded-b-xl'>
                         <div className='text-[#807A7A] text-[10px] flex items-center gap-2'>
                             <p>5 nights 6 days tour</p>
@@ -95,8 +99,9 @@ const ExploreFeatures = () => {
                         </div>
                     </div>
                 </div>
-                <div className='rounded-xl border border-[#D0A148] border-b-4 border-t-4 w-96'>
+                <div className='rounded-xl border border-[#D0A148] border-b-4 border-t-4 w-96 relative'>
                     <Image src={'/popular/1.png'} alt='hello' width={1000} height={600} className='w-96 rounded-t-xl' />
+                    <div className='p-6 bg-black text-[#D0A148] font-bold text-2xl border-2 border-black w-[70px] h-[70px] top-[205px] right-2 text-center absolute'>20</div>
                     <div className='p-[20px] bg-[#FFF] rounded-b-xl'>
                         <div className='text-[#807A7A] text-[10px] flex items-center gap-2'>
                             <p>5 nights 6 days tour</p>
@@ -116,8 +121,9 @@ const ExploreFeatures = () => {
                         </div>
                     </div>
                 </div>
-                <div className='rounded-xl border border-[#D0A148] border-b-4 border-t-4 w-96'>
+                <div className='rounded-xl border border-[#D0A148] border-b-4 border-t-4 w-96 relative'>
                     <Image src={'/popular/1.png'} alt='hello' width={1000} height={600} className='w-96 rounded-t-xl' />
+                    <div className='p-6 bg-black text-[#D0A148] font-bold text-2xl border-2 border-black w-[70px] h-[70px] top-[205px] right-2 text-center absolute'>20</div>
                     <div className='p-[20px] bg-[#FFF] rounded-b-xl'>
                         <div className='text-[#807A7A] text-[10px] flex items-center gap-2'>
                             <p>5 nights 6 days tour</p>
